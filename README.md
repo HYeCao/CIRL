@@ -31,7 +31,7 @@
 
 ## ✨ Key Features
 
-* **🧠 Causal Influence Masking**: Automatically detects weakly action-dependent dimensions in the policy's visual latent space and counterfactually masks them to eliminate causal confusion.
+* **🧠 Causal Influence Masking**: Automatically detects weakly action-dependent dimensions in the policy's visual latent space and masks them to eliminate causal confusion.
 * **⚡ Asynchronous Actor-Learner Parallelism**: Multi-node architecture where the policy network actor collects transitions and syncs weights, while the GPU learner updates parameters in parallel.
 * **🤝 Human-in-the-Loop Intervention**: Wrappers supporting SpaceMouse intervention, seamlessly blending expert corrections into the replay buffer to accelerate learning.
 * **💎 Fully Integrated UR Env**: Complete out-of-the-box infrastructure featuring RealSense camera stack, interactive cropping tool, and robot controller servers.
