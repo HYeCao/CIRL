@@ -152,14 +152,7 @@ class EnvConfig(DefaultEnvConfig):
 class TrainConfig(DefaultTrainingConfig):
     image_keys = ["wrist", "external"]
     classifier_keys = ["wrist", "external"]
-    # proprio_keys = [
-    #     "tcp_pose",
-    #     "tcp_vel",
-    #     "tcp_force",
-    #     "tcp_torque",
-    #     "gripper_pose",
-    #     "gripper_state",
-    # ]
+
     proprio_keys = [
         "tcp_pose",
         "tcp_force",
