@@ -176,7 +176,7 @@ class TrainConfig(DefaultTrainingConfig):
     causal_rtg_gamma = 0.98
     causal_update_interval = 500
     causal_sample_size = 500
-    causal_action_indices = [0, 1, 2]  # Use xyz only; gripper is handled by the grasp critic.
+    causal_action_indices = [0, 1, 2]  # Use xyz; gripper is handled by the grasp critic.
     causal_sampling_strategy = "phase_mixed"
     causal_online_ratio = 0.25
     causal_intervention_ratio = 0.35
