@@ -119,7 +119,6 @@ CIRL/
 ├── serl_robot_infra/          # Low-level hardware drivers and Gym environments
 │   ├── robot_servers/         # Flask servers interfacing with low-level robot controllers
 │   ├── ur_env/                # Universal Robot (UR) Gym environments and camera tools
-│   └── franka_env/            # Franka Emika research arm environment wrappers
 └── examples/                  # Task configurations, scripts, and launch scripts
     ├── experiments/           # Specific task configs (e.g. pick_place_banana)
     └── record_demos.py        # Spacemouse demonstration collection script
@@ -232,4 +231,4 @@ To create a new task using CIRL:
    * `wrapper.py`: Defines task reward penalties, action boundaries, and target positions.
    * `run_actor.sh` & `run_learner.sh`: Launcher shell scripts mapping to the task folder.
 3. **Register Config Mapping**: Add your task config reference to [mappings.py](file:///Users/hongyecao/Desktop/PyCharm/RealWorld_RL/UR/github_code/examples/experiments/mappings.py).
-4. **Register Robot Environment (If New Robot)**: Create a new environment interface and controller under `serl_robot_infra` mirroring `ur_env` or `franka_env`.
+4. **Register Robot Environment (If New Robot)**: Create a new environment interface and controller under `serl_robot_infra` mirroring `ur_env`.
