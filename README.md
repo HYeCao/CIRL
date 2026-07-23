@@ -82,7 +82,7 @@ cd ..
 
 ## 📐 Overview & System Architecture
 
-The core of CIRL uses an asynchronous design powered by [agentlace](https://github.com/youliangtan/agentlace). This allows parallel execution of inference and policy optimization:
+The core of CIRL uses an asynchronous design. This allows parallel execution of inference and policy optimization:
 
 ```
                   ┌─────────────────────────────────────┐
