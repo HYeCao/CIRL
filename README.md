@@ -12,7 +12,7 @@
 ---
 
 <p align="center">
-  <img src="./docs/images/motivation_00.png" alt="CIRL Method Motivation" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);" />
+  <img src="./motivation_00.png" alt="CIRL Method Motivation" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);" />
 </p>
 
 **CIRL (Causal-Influence Reinforcement Learning)** is a highly sample-efficient framework designed to train robotic manipulation policies. By leveraging **Causal Masking Interventions** in the latent state space combined with **Human-in-the-Loop intervention**, CIRL achieves near-perfect success rates on complex real-world tasks in a fraction of the time compared to other methods.
