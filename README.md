@@ -1,4 +1,4 @@
-# 🚀 CIRL: Towards Efficient Real-World Human-in-the-Loop Reinforcement Learning with Causal Influence
+# 🚀 CIRL: Causal influence improves human-in-the-loop reinforcement learning for real-world robotic manipulation
 
 <div align="center">
 
